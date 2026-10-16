@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.db
+storage/*
+!storage/.gitkeep
+data/raw/*
+data/processed/*
+!data/*/.gitkeep
+ml/artifacts/*.joblib
+.pytest_cache/
+.ruff_cache/
